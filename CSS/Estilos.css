@@ -1,0 +1,90 @@
+#barra{
+    background-color: rgba(37, 36, 187, 0.92);
+    font-size: 30px;
+    padding: 10px;
+
+
+}
+
+#nombre{
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    font-family: "Lucida Handwriting";
+
+
+}
+
+
+.Boton_Gallery{
+    background-color: white;
+    border-radius: 5px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    font-family: "Lucida Handwriting";
+    padding: 5px;
+    margin-top: 2px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.24);
+}
+
+.Boton_Gallery:hover{
+    color: rgb(37, 36, 187);
+    transition: all 0.30s;
+}
+
+@keyframes myzoom {
+    from{
+        font-size: 18px;
+    }
+    to{
+        font-size: 22px;
+    }
+}
+
+
+body {
+    margin: 0px;
+}
+
+
+#Imagen{
+    text-align: center;
+}
+
+
+.municipio{
+    position: absolute;
+    text-decoration: none;
+    border-radius:100%;
+    color: white;
+    background-color:rgb(37, 36, 187);
+    font-size: 18px;
+    padding: 4px 10px 4px 10px;
+
+    animation-name: myzoom;
+    animation-delay: initial;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#parte_inferior{
+    background-color: rgba(37, 36, 187, 0.92);
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-family: "Lucida Handwriting";
+    text-align: center;
+
+
+}
+#autoras{
+    display: inline-block;
+
+}
+
+
